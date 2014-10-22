@@ -1,0 +1,7 @@
+<Alloy>
+  <Tab title="Captured">
+    <Window backgroundColor="#000">
+      <Label color="#fff">Label 5</Label>
+    </Window>
+  </Tab>
+</Alloy>
