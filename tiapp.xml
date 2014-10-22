@@ -7,9 +7,9 @@
 	<description>not specified</description>
 	<copyright>not specified</copyright>
 	<icon>appicon.png</icon>
-	<fullscreen>false</fullscreen>
-	<navbar-hidden>false</navbar-hidden>
-	<analytics>true</analytics>
+	<fullscreen>true</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+	<analytics>false</analytics>
 	<guid>cac53d3f-8aa6-4923-933b-64a67087956d</guid>
 	<property name="ti.ui.defaultunit" type="string">dp</property>
 	<ios>
@@ -38,7 +38,10 @@
 		</plist>
 	</ios>
 	<android xmlns:android="http://schemas.android.com/apk/res/android">
-	</android>
+    <manifest>
+      <application android:theme="@style/Theme.Titanium"/>
+    </manifest>
+  </android>
 	<mobileweb>
 		<precache>
 		</precache>
